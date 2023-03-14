@@ -1,0 +1,342 @@
+* html, body, #wrapper {
+    background-color: #FFFFFF;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+#wrapper .content {    
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 1600px;
+}
+
+#wrapper .content .top {
+    background: url(src/img/background-top.jpg) no-repeat center top;
+    float: left;
+    height: auto;
+    min-height: 786px;
+    margin: 0;
+    padding: 0;    
+    width: 100%;
+}
+
+#wrapper .content .menu {
+    float: left;
+    margin: 0 auto;
+    padding: 6pt 15%;
+    text-align: center;
+    width: 70%;
+}
+
+#wrapper .content .menu .logo{
+    float: left;    
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    width: 30%;
+}
+
+#wrapper .content .menu .options {
+    float: left;
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-align: right;
+    width: 70%;
+}
+
+#wrapper .content .menu .options li {
+    display: inline;
+    margin: 0 30pt;
+    list-style: none;
+}
+
+#wrapper .content .menu .options li:last-child {
+    margin: 0 15pt 0 30pt;
+}
+
+#wrapper .content .menu .options li a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#wrapper .content .menu .options li a.secundary {
+    color:#7C8699;
+    font-weight: bold;
+}
+
+
+#wrapper .content .menu .options li a:hover {
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#wrapper .content .menu .options li a.secundary:hover {
+    color: #7C8699;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#wrapper .content .section-1 {
+    background: url(src/img/background-s1.jpg) no-repeat center top;
+    float: left;
+    min-height: 905px;
+    height: auto;
+    margin: 0;
+    padding: 0;   
+    position: relative;
+    width: 100%;
+}
+
+
+#wrapper .content .section-1 .text-content {
+    float: left;
+    margin: 0;
+    padding: 0 15%;
+    width: 70%;
+}
+
+#wrapper .content .section-1 .text-content h1 {
+    color: #6C7C97;
+    display: block;
+    font-size: 8em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+#wrapper .content .section-1 .text-content h1 span {
+    color: #414F6B;
+    display: block;
+    font-size: 0.3em;
+    left: 110pt;
+    position: absolute;
+    top: 40pt;
+    width: auto;
+}
+
+#wrapper .content .section-1 .text-content p {
+    display: block;
+    margin: 0;
+    padding: 0 10%;
+    width: 80%;
+}
+
+#wrapper .content .section-1 .carrousel {
+    bottom: 0;
+    display: block;
+    position: absolute;
+    left: 0;    
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#wrapper .content .section-1 .carrousel ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#wrapper .content .section-1 .carrousel ul li{
+    display: inline;
+    list-style: none;
+}
+
+#wrapper .content .section-2 {
+    float: left;
+    min-height: 741px;
+    height: auto;
+    margin: 0;
+    padding: 0;   
+    position: relative;
+    width: 100%;
+}
+
+#wrapper .content .section-2 .text-content {
+    float: left;
+    margin: 0;
+    padding: 0 15%;
+    width: 70%;
+}
+
+#wrapper .content .section-2 .text-content h1 {
+    color: #B0B4BE;
+    float: left;
+    font-size: 8em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 30%;
+}
+
+#wrapper .content .section-2 .text-content h1 span {
+    color: #414F6B;
+    display: block;
+    font-size: 0.3em;
+    left: 105pt;
+    position: absolute;
+    top: 40pt;
+    width: auto;
+}
+
+#wrapper .content .section-2 .text-content p {
+    float: left;
+    margin: 0;
+    padding: 20pt 5% 0 0;
+    width: 65%;
+}
+
+#wrapper .content .section-2 .nav-tab {
+    background-color: #414F6B;
+    float: left;
+    margin: 0;
+    padding: 0 15%;
+    width: 70%;
+}
+
+#wrapper .content .section-2 .nav-tab  li{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 10pt;    
+    width: auto;
+}
+
+#wrapper .content .section-2 .nav-tab li.selected, #wrapper .content .section-2 .nav-tab li.r-tabs-state-active {
+    background-color: #B0B4BE;
+}
+
+#wrapper .content .section-2 .nav-tab li a {
+    color: #B0B4BE;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#wrapper .content .section-2 .nav-tab li.selected a, #wrapper .content .section-2 .nav-tab li.r-tabs-state-active a {
+    color:#414F6B;
+    text-decoration: underline;
+}
+
+
+#wrapper .content .section-2 .tabs{
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#wrapper .content .section-2 .mountain-1{
+    background: url(src/img/background-tab1.jpg);
+    float: left;
+    height: auto;
+    margin: 0;
+    min-height: 546px;
+    padding: 0 15%;
+    width: 70%;
+}
+
+#wrapper .content .section-2 .mountain-2{
+    background: url(src/img/background-tab2.jpg);
+    float: left;
+    height: auto;
+    margin: 0;
+    min-height: 546px;
+    padding: 0 15%;
+    width: 70%;
+}
+
+#wrapper .content .section-2 .mountain-1 .schedule, #wrapper .content .section-2 .mountain-2 .schedule{
+    background: url(src/img/bck-txt-tabs.png) repeat;
+    float: left;
+    margin: 40pt 35pt;
+    padding: 5pt 15pt;
+    width: auto;
+}
+
+#wrapper .content .section-2 .mountain-1 .schedule h2, #wrapper .content .section-2 .mountain-2 .schedule h2 {
+    color: #414F6B;
+    display: block;
+    margin: 0 0 5pt 0;
+}
+
+#wrapper .content .section-2 .mountain-1 .schedule table, #wrapper .content .section-2 .mountain-2 .schedule table {
+    display: block;
+    width: 100%;
+}
+
+#wrapper .content .section-2 .mountain-1 .schedule table tr, #wrapper .content .section-2 .mountain-2 .schedule table tr {
+    display: block;
+    margin: 5pt 0;
+    padding: 0;
+    width: 100%;
+}
+
+#wrapper .content .section-2 .mountain-1 .schedule table tr:last-child, #wrapper .content .section-2 .mountain-2 .schedule table tr:last-child {
+    margin: 15pt 0 0 0;
+}
+
+#wrapper .content .section-2 .mountain-1 .schedule table tr td, #wrapper .content .section-2 .mountain-2 .schedule table tr td {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+#wrapper .content .foot-section {
+    background: #414F6B url(src/img/background-foot.jpg) no-repeat 15% center;
+    float: left;
+    margin: 0;
+    padding: 10pt 15%;
+    text-align: right;
+    width: 70%;
+}
+
+#wrapper .content .foot-section p {
+    color: #61749A;
+    display: block;
+    font-weight: bold;
+}
+
+/* Accordion anchor */
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+	display: block;
+	padding: 10px;
+
+	background-color: #414F6B;
+	color: #B0B4BE;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Active accordion anchor */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+	background-color: #B0B4BE;
+	color: #414F6B;
+	text-decoration: underline;
+}
+
+
+.flex-container{
+	width: 100%;
+	max-width: 1500px;
+}
+
+.flex-direction-nav a {background: url(src/img/bg_direction_nav.png);}
+
+.flex-control-nav a {background: url(src/img/bg_control_nav.png);}
